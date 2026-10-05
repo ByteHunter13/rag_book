@@ -1,0 +1,39 @@
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Bases de datos vectoriales generadas
+chromadb/
+chroma_db/
+*.sqlite3
+
+# IDE / sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Carpetas usadas localmente
+datasets/
